@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
+import SlideShow from './component/SlideShow';
+// import Counter from './component/Counter'
+// import Listmark from './component/Listmark';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SlideShow/>
+      {/* <Counter/> */}
+      {/* <Listmark/> */}
     </div>
   );
 }
